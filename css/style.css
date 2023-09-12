@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background: rgb(247, 247, 247)
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section_title h2:hıver{
+    color: #3f3f3f;
+}
+
+/*  HEADER  */
+
+header{
+    background: rgb(0, 0, 0);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;
+    
+    
+}
+.menu{
+    display: flex;
+    
+}
+.menu a{
+    margin-left: 50px;
+    color:rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu a:hover{
+    
+    color:rgb(253, 255, 114);
+    
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+}
