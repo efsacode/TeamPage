@@ -12,6 +12,7 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/arkaplan.png); 
 }
 
 img{
@@ -20,7 +21,7 @@ img{
 
 section{
     padding: 100px 0;
-    background: rgb(247, 247, 247)
+    background: rgb(255, 255, 255)
 }
 
 .section_title{
@@ -68,17 +69,44 @@ header{
     color:rgb(255, 255, 255);
     padding: 5px 15px;
     border-radius: 5px;
+    font-weight: bold;
     text-align: center;
     transition: all 0.3s ease-in-out;
 }
 
+
+
 .menu a:hover{
     
-    color:rgb(253, 255, 114);
+    color:rgb(252, 255, 103);
     
 }
 
 .logo{
     color: white;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: large;
+    font-weight: bolder;
+   
+}
+
+/*ANASAYFA*/
+
+.inner_anasayfa{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    margin-left: 10%; 
+    margin-top: 10%;
+    line-height: 180%;
+    
+}
+
+.child_anasayfa{
+    width: 50%;
+    padding: 0 50px;
+    margin-left: 50%;
+    margin-top: 10%;
+    flex-direction: column;
 }
