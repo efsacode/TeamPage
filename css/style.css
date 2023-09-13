@@ -12,9 +12,10 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../images/arkaplan.png); 
+    background-image: url(../images/arkaplan.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
@@ -126,7 +127,7 @@ header{
 
 .inner_anasayfa h1{
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: rgb(6, 3, 58);
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
@@ -143,7 +144,7 @@ header{
     margin-bottom: 20px;
     margin-top: 50px;
     text-align: center;
-    line-height: 180%;
+    
     background: transparent;
     letter-spacing: normal;
     text-shadow: 0 0 0.2em rgb(175, 175, 175);
@@ -156,8 +157,17 @@ header{
     height: 35%;
     margin-top: 5%;
     margin-right: 10%;
+    display: flex;
    
 }
 
+.socials{
+    display: flex;
+    column-gap: 2rem;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    margin-top: 70%;
+    margin-left: 10%;
+}
  
 
