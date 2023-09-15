@@ -54,6 +54,12 @@ header{
     position: fixed;
     width: 100%;
     z-index: 5;
+    /*deneme kismi*/
+    transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+    /*deneme kismi*/
 }
 
 .navbar{
@@ -78,12 +84,14 @@ header{
     font-weight: bold;
     text-align: center;
     transition: all 0.3s ease-in-out;
+   
 }
 
 
 .menu a:hover{
     
     color:rgb(252, 255, 103);   
+   
 }
 
 .logo{
@@ -104,7 +112,7 @@ header{
     display: flex;
     margin-left: 10%;
     text-align: center; 
-    
+    align-items: center;
     
     line-height: 180%;
     background: transparent;  
@@ -112,10 +120,10 @@ header{
 
 .child_anasayfa{
     
-    width: 50%;
+    width: 45%;
     padding: 0 50px;
-    
-    margin-top: 20%;  
+    margin-left: 3%;
+    margin-top: 18%;  
 }
 
 .inner_anasayfa h1{
@@ -126,7 +134,7 @@ header{
     text-align: center;
     line-height: 180%;
     background: transparent;
-    text-shadow: 0 0 0.2em rgb(71, 71, 71);  
+    text-shadow: 0 0 0.2em rgb(71, 71, 71); 
 }
 
 .inner_anasayfa p{
@@ -141,22 +149,28 @@ header{
     
     letter-spacing: 1px;
     text-shadow: 0 0 0.2em rgb(175, 175, 175);
+    
 }
 
 .container_logo{
-    
+    display: center;
     width: 50%;
     height: 35%;
-    margin-top: 5%;
-    margin-right: 10%;
-    display: flex; 
+    margin-top: 18%;
+    align-items: center;
+    
 }
 
-.socials{
+.social-links{
     display: center;
     column-gap: 2.5rem;
     margin: 2rem 0;
-    font-size: 1.8rem;  
+    font-size: 1.5rem;  
+}
+
+.social-links:hover{
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease-in-out;
 }
 
     
@@ -167,6 +181,28 @@ header{
 }
 
 
-.socials home__social-link:hover{
+.home__social-link:hover{
     color: rgb(252, 255, 103);
 }
+
+.btn{
+    display: inline-block; 
+    text-transform: uppercase;
+    margin-top: 3%;
+    font-size: 15px;
+    line-height: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px; 
+    color:#000000; 
+    padding:17px 30px;  
+    border: 2px solid #070707;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.btn:hover{
+    
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: #333F48;
+}
+
