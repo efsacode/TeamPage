@@ -1,0 +1,254 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+   
+    
+    background: linear-gradient(to bottom, #FFF, #AAA);
+    
+    
+}
+
+
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section_title h2:hover{
+    color: #3f3f3f;
+}
+
+/*  HEADER  */
+
+header{
+    background:  #000000;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    /*deneme kismi*/
+    transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+    border-bottom: 1px solid #000000;
+    
+    
+    /*deneme kismi*/
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;  
+    
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu a{
+    margin-left: 50px;
+    color:rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+
+.menu a:hover{
+    
+    color:#6fa8dd; 
+    font-size: 18px;
+   
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.logo_image{
+    width: 30%;   
+}
+
+.veri_frame{
+    
+width: 1600px;
+  height: 750px;
+  position: absolute;
+  left: 260px;
+  top: 206px;
+  overflow: hidden;  
+}
+
+.container_class{
+  background: linear-gradient(to bottom, #FFF, #cacaca);
+  width: 1920px;
+  height: 2526px;
+  position: relative;
+  overflow: hidden;
+}
+
+.uni_sayi{
+  color: #000000;
+  text-align: left;
+  font: 400 25px "Inter", sans-serif;
+  position: absolute;
+  left: 642px;
+  top: 200px;
+}
+
+.club_sayi{
+  color: #000000;
+  text-align: left;
+  font: 400 25px "Inter", sans-serif;
+  position: absolute;
+  left: 642px;
+  top: 300px;
+  width: 1288px;
+  height: 185px;
+}
+
+.ort_club{
+    color: #000000;
+  text-align: left;
+  font: 400 25px "Inter", sans-serif;
+  position: absolute;
+  left: 642px;
+  top: 400px;    
+}
+
+.tablo{
+    width: 900px;
+    height: 800px;
+    position: absolute;
+    left: -140px;
+    top: -130px;
+}
+
+.card_frame{
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.603);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-width: 1px;
+  width: 1645px;
+  height: 519px;
+  position: absolute;
+  left: 125px;
+  top: 1000px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.problem {
+    color: #000000;
+    text-align: left;
+    font: 400 64px "Inter", sans-serif;
+    position: absolute;
+    left: 121px;
+    top: 210px;
+  }
+
+.problem_text{
+  color: #000000;
+  text-align: center;
+  font: 400 28px "Inter", sans-serif;
+  position: absolute;
+  left: 701px;
+  top: 100px;
+  width: 894px;
+    
+}
+
+.card_frame2{
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.603);;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-width: 1px;
+  width: 1645px;
+  height: 519px;
+  position: absolute;
+  left: 125px;
+  top: 1200px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.amac {
+    color: #000000;
+    text-align: left;
+    font: 400 64px "Inter", sans-serif;
+    position: absolute;
+    left: 1173px;
+    top: 218px;
+  }
+
+  .amac_text {
+    color: #000000;
+    text-align: center;
+    font: 400 30px "Inter", sans-serif;
+    position: absolute;
+    left: 52px;
+    top: 150px;
+    width: 894px;
+  }
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
