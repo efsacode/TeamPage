@@ -1,0 +1,418 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/arkaplan.png);
+    
+    background-color: #2F3F54;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background: rgb(255, 255, 255)
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section_title h2:hover{
+    color: #3f3f3f;
+}
+
+/*  HEADER  */
+
+header{
+    background:  #000000;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    /*deneme kismi*/
+    transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+    border-bottom: 1px solid #000000;
+    
+    
+    /*deneme kismi*/
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;  
+    
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu a{
+    margin-left: 50px;
+    color:rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+
+.menu a:hover{
+    
+    color:#6fa8dd; 
+    font-size: 18px;
+   
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.logo_image{
+    width: 30%;   
+}
+.team * {
+    box-sizing: border-box;
+  }
+  .team {
+    background: #ffffff;
+    width: 1920px;
+    height: 1700px;
+    position: relative;
+    overflow: hidden;
+  }
+  .frame-9 {
+    width: 1677px;
+    height: 572px;
+    position: absolute;
+    left: 122px;
+    top: 200px;
+    overflow: hidden;
+  }
+  .efsa-profile-pic-1 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 1402px;
+    top: 155px;
+  }
+
+  .m-cahit-profile-pic-1 {
+    width: 220px;
+    height: 228.7px;
+    position: absolute;
+    left: 726px;
+    top: 158px;
+  }
+  .serhat-profile-pic-1 {
+    width: 220px;
+    height: 227.23px;
+    position: absolute;
+    left: 50px;
+    top: 155px;
+  }
+  .simge-profile-pic-1 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 1064px;
+    top: 158px;
+  }
+  .zeynep-profile-pic-1 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 388px;
+    top: 158px;
+  }
+  .serhat-keskin {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 82px;
+    top: 408px;
+    width: 156px;
+    height: 31px;
+  }
+  .cto-founder {
+    color: #000000;
+    text-align: left;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 76px;
+    top: 446px;
+  }
+  .zeynep-tan {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 431px;
+    top: 408px;
+    width: 135px;
+    height: 31px;
+  }
+  .m-cahit-bayraktar {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 730px;
+    top: 408px;
+    width: 210px;
+    height: 31px;
+  }
+  .simge-do-an {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1109px;
+    top: 408px;
+    width: 156px;
+    height: 31px;
+  }
+  .efsa-dil-at-alg-l {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1434px;
+    top: 408px;
+    width: 188px;
+    height: 31px;
+  }
+  .ceo {
+    color: #000000;
+    text-align: left;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 472px;
+    top: 446px;
+  }
+  .backend-developer {
+    color: #000000;
+    text-align: left;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 721px;
+    top: 446px;
+  }
+  .frontend-developer {
+    color: #000000;
+    text-align: left;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1071px;
+    top: 446px;
+  }
+  .frontend-developer2 {
+    color: #000000;
+    text-align: left;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1411px;
+    top: 446px;
+    width: 266px;
+  }
+  .takimimiz {
+    color: #000000;
+    text-align: left;
+    font: 800 italic 40px "Inter", sans-serif;
+    position: absolute;
+    left: 730px;
+    top: 15px;
+  }
+  .frame-10 {
+    width: 1793px;
+    height: 620px;
+    position: absolute;
+    left: 46px;
+    top: 1000px;
+    overflow: hidden;
+  }
+  .ads-z-tasar-m-1 {
+    width: 1777px;
+    
+    position: absolute;
+    left: -10px;
+    top: -120px;
+  }
+  .samet-y-ld-r-m {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 385px;
+    width: 168px;
+    height: 31px;
+  }
+  .solar-vis-ceo-co-founder {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 432px;
+  }
+  .enes-berk-karahan-er {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 415px;
+    top: 385px;
+    width: 273px;
+    height: 31px;
+  }
+  .solar-vis-cto-co-founder {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 450px;
+    top: 426px;
+  }
+  .mentorler-m-z {
+    color: #000000;
+    text-align: left;
+    font: 800 italic 40px "Inter", sans-serif;
+    position: absolute;
+    left: 730px;
+    top: 10px;
+  }
+  .dr-r-y-cel-tekin {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 793px;
+    top: 385px;
+    width: 225px;
+    height: 31px;
+  }
+  .robotum-bili-im-founder {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 745px;
+    top: 440px;
+  }
+  .dr-r-yesi-melike-akta-bozkurt {
+    color: #000000;
+    text-align: center;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1105px;
+    top: 385px;
+    width: 273px;
+    height: 31px;
+  }
+  .ostim-teknik-niversitesi-giri-imcilik-ve-liderlik-uygulama-ve-ara-t-rma-merkezi-m-d-r {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1101px;
+    top: 467px;
+    width: 305px;
+    height: 159px;
+  }
+  .asystee-e-t-yaz-ltd-ti-co-founder-anadolu-niversitesi-bilgisayar-ara-t-rma-ve-uygulama-merkezi-m-d-r-yard-mc-s {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1470px;
+    top: 449px;
+  }
+  .dr-r-yesi-mesut-aydemir {
+    color: #000000;
+    text-align: center;
+    font: 400 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1533px;
+    top: 383px;
+  }
+  .ostim-teknik-niversitesi-yaz-l-m-m-hendisli-i-b-l-m-ba-kan {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 752px;
+    top: 495px;
+  }
+  .yaz-l-m-geli-tirme-proje-ve-r-n-y-netimi-deneyimleri {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 404px;
+    top: 501px;
+  }
+  .geli-tirme-r-n-y-netimi-sat-ve-pazarlama-deneyimleri {
+    color: #000000;
+    text-align: center;
+    font: 700 italic 24px "Inter", sans-serif;
+    position: absolute;
+    left: 75px;
+    top: 510px;
+  }
+  
+  .reveal{
+    position:absolute;
+    transform: translateY(0);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

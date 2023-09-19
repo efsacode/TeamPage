@@ -145,7 +145,11 @@ width: 1600px;
   top: 200px;
   text-shadow: 0 0 32px rgb(0, 31, 204);
 }
-
+.uni_sayi:hover{
+  color:rgb(79, 155, 255);
+  text-shadow: 0 0 32px rgb(0, 0, 0);
+  transition: 0.4s;
+}
 .club_sayi{
   color: #000000;
   text-align: left;
@@ -158,6 +162,12 @@ width: 1600px;
   text-shadow: 0 0 32px rgb(204, 184, 0);
 }
 
+.club_sayi:hover{
+  color:rgb(252, 199, 54);
+  text-shadow: 0 0 32px rgb(155, 101, 0);
+  transition: 0.4s;
+}
+
 .ort_club{
     color: #000000;
   text-align: left;
@@ -166,6 +176,12 @@ width: 1600px;
   left: 642px;
   top: 400px;   
   text-shadow: 0 0 32px rgb(204, 0, 0);
+}
+
+.ort_club:hover{
+  color:rgb(255, 116, 116);
+  text-shadow: 0 0 32px rgb(136, 0, 0);
+  transition: 0.4s;
 }
 
 .tablo{
@@ -298,6 +314,15 @@ background-color: rgba(255, 255, 255, 0.253);
     left: 840px;
     top: 1072px;
   }
+
+ /* .mac-book-pro-1:hover{
+    width: 1230px;
+    height: 830px;
+    position: absolute;
+    left: 840px;
+    top: 1072px;
+    transition: 0.5s;
+  }*/
   .etkinlik-s-re-leri-kontrol-sistemi-g-rsel-raporlar-ve-trend-analizi {
     color: #000000;
     text-align: center;
@@ -359,7 +384,16 @@ background-color: rgba(255, 255, 255, 0.253);
     top: 150px;
     transform-origin: 0 0;
     transform: rotate(-0.067deg) scale(1, 1);
+    
   }
+  /*.mac-book-pro-16-removebg-preview-1-1:hover{
+    width: 1230px;
+    height: 830px;
+    position: absolute;
+    left: -134px;
+    top: 150px;
+    transition: 0.5s;
+  }*/
   ._4 {
     width: 1000px;
     height: 800px;
